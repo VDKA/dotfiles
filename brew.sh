@@ -10,19 +10,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Check for Homebrew,
 # Install if we don't have it
-if test ! $(which brew); then
-	if [ "$(uname)" == "Darwin" ]; then
-		#On a mac
-		echo "Installing HomeBrew"
-		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-	else
-		#On a linux
-		echo "Installing LinuxBrew deps"
-		#Makes assumpion of debian or ubuntu distro. Will fail on Fedora, centOS, RedHat
-		sudo apt-get install build-essential curl git m4 python-setuptools ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
-
-		echo "Installing LinuxBrew"
-		ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+if test $(hash brew); then
+	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/VDKA/dotfiles/brew/install)"
 fi
 
 # Make sure we’re using the latest Homebrew.
