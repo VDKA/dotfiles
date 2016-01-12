@@ -1,0 +1,757 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Bookmarks:
+'H
+	/Users/Ethan/
+	..
+1442145520
+'b
+	/Users/Ethan/bin/
+	..
+1442145520
+'h
+	/Users/Ethan/
+	..
+1442145520
+'z
+	/Users/Ethan/.config/vifm
+	..
+1442145520
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/Users/Ethan/dfiles/nvim
+	nvimrc.symlink
+2
+d/Users/Ethan
+	Desktop
+3
+d/Users/Ethan/Desktop
+	..
+0
+d/Users/Ethan
+	.m2
+12
+d/Users/Ethan/.m2
+	repository
+1
+d/Users/Ethan/.m2/repository
+	..
+0
+d/Users/Ethan/.m2
+	repository
+1
+d/Users/Ethan/.m2/repository
+	..
+0
+d/Users/Ethan/.m2
+	..
+0
+d/Users/Ethan
+	.oracle_jre_usage
+14
+d/Users/Ethan/.oracle_jre_usage
+	..
+0
+d/Users/Ethan
+	.p2
+14
+d/Users/Ethan/.p2
+	org.eclipse.equinox.p2.engine
+1
+d/Users/Ethan/.p2/org.eclipse.equinox.p2.engine
+	..
+0
+d/Users/Ethan/.p2
+	..
+0
+d/Users/Ethan
+	.python-eggs
+14
+d/Users/Ethan/.python-eggs
+	..
+0
+d/Users/Ethan
+	.config
+6
+d/Users/Ethan/.config
+	fish
+3
+d/Users/Ethan/.config/fish
+	functions
+1
+d/Users/Ethan/.config/fish/functions
+	..
+0
+d/Users/Ethan/.config/fish
+	functions
+1
+d/Users/Ethan/.config/fish/functions
+	..
+0
+d/Users/Ethan/.config/fish
+	..
+0
+d/Users/Ethan/.config
+	..
+0
+d/Users/Ethan
+	.config
+6
+d/Users/Ethan/.config
+	..
+0
+d/Users/Ethan
+	scripts
+47
+d/Users/Ethan/scripts
+	..
+0
+d/Users/Ethan
+	Calibre Library
+33
+d/Users/Ethan/Calibre Library
+	..
+0
+d/Users/Ethan
+	.turses
+29
+d/Users/Ethan/.turses
+	..
+0
+d/Users/Ethan
+	.tacklebox
+27
+d/Users/Ethan/.tacklebox
+	..
+0
+d/Users/Ethan
+	.tacklebox
+27
+d/Users/Ethan/.tacklebox
+	..
+0
+d/Users/Ethan
+	.config
+5
+d/Users/Ethan/.config
+	fish
+4
+d/Users/Ethan/.config/fish
+	functions
+1
+d/Users/Ethan/.config/fish/functions
+	..
+0
+d/Users/Ethan/.config/fish
+	..
+0
+d/Users/Ethan/.config
+	..
+0
+d/Users/Ethan
+	.config
+5
+d/Users/Ethan/.config
+	base16-shell
+1
+d/Users/Ethan/.config/base16-shell
+	..
+0
+d/Users/Ethan/.config
+	..
+0
+d/Users/Ethan
+	.nvim
+17
+d/Users/Ethan/.nvim
+	autoload
+1
+d/Users/Ethan/.nvim/autoload
+	..
+0
+d/Users/Ethan/.nvim
+	plugged
+2
+d/Users/Ethan/.nvim/plugged
+	..
+0
+d/Users/Ethan/.nvim
+	..
+0
+d/Users/Ethan
+	dotfiles
+36
+d/Users/Ethan/dotfiles
+	install
+8
+d/Users/Ethan/dotfiles/install
+	..
+0
+d/Users/Ethan/dotfiles
+	tmux
+10
+d/Users/Ethan/dotfiles/tmux
+	..
+0
+d/Users/Ethan/dotfiles
+	..
+0
+d/Users/Ethan
+	dfiles
+35
+d/Users/Ethan/dfiles
+	nvim
+7
+d/Users/Ethan/dfiles/nvim
+	..
+0
+d/Users/Ethan/dfiles
+	..
+0
+d/Users/Ethan
+	.dotfiles
+10
+d/Users/Ethan/.dotfiles
+	vim
+8
+d/Users/Ethan/.dotfiles/vim
+	..
+0
+d/Users/Ethan/.dotfiles
+	vim
+8
+d/Users/Ethan/.dotfiles/vim
+	
+8
+d/Users/Ethan/.dotfiles
+	installosx.sh
+8
+d/Users/Ethan
+	.dotfiles
+10
+d/Users/Ethan/.dotfiles
+	vim
+7
+d/Users/Ethan/.dotfiles/vim
+	vim.symlink
+1
+d/Users/Ethan/.dotfiles/vim/vim.symlink
+	plugged
+2
+d/Users/Ethan/.dotfiles/vim/vim.symlink/plugged
+	..
+0
+d/Users/Ethan/.dotfiles/vim/vim.symlink
+	..
+0
+d/Users/Ethan/.dotfiles/vim
+	..
+0
+d/Users/Ethan/.dotfiles
+	nvim
+7
+d/Users/Ethan/.dotfiles/nvim
+	..
+0
+d/Users/Ethan/.dotfiles
+	nvim
+7
+d/Users/Ethan/.dotfiles/nvim
+	..
+0
+d/Users/Ethan/.dotfiles
+	vim
+8
+d/Users/Ethan/.dotfiles/vim
+	..
+0
+d/Users/Ethan/.dotfiles
+	install
+6
+d/Users/Ethan/.dotfiles/install
+	..
+0
+d/Users/Ethan/.dotfiles
+	git
+5
+d/Users/Ethan/.dotfiles/git
+	..
+0
+d/Users/Ethan/.dotfiles
+	fish
+4
+d/Users/Ethan/.dotfiles/fish
+	..
+0
+d/Users/Ethan/.dotfiles
+	config.symlink
+3
+d/Users/Ethan/.dotfiles/config.symlink
+	fish
+2
+d/Users/Ethan/.dotfiles/config.symlink/fish
+	..
+0
+d/Users/Ethan/.dotfiles/config.symlink
+	..
+0
+d/Users/Ethan/.dotfiles
+	bin
+2
+d/Users/Ethan/.dotfiles/bin
+	..
+0
+d/Users/Ethan/.dotfiles
+	applescripts
+1
+d/Users/Ethan/.dotfiles/applescripts
+	..
+0
+d/Users/Ethan/.dotfiles
+	fish
+4
+d/Users/Ethan/.dotfiles/fish
+	config.sym
+1
+d/Users/Ethan/.dotfiles/fish/config.sym
+	fish
+1
+d/Users/Ethan/.dotfiles/fish/config.sym/fish
+	config.fish
+2
+d
+
+# Right window history (oldest to newest):
+D/Users/Ethan
+	.config
+8
+D/Users/Ethan/.config
+	fish
+4
+D/Users/Ethan/.config/fish
+	functions
+1
+D/Users/Ethan/.config/fish/functions
+	..
+0
+D/Users/Ethan/.config/fish
+	..
+0
+D/Users/Ethan/.config
+	..
+0
+D/Users/Ethan
+	.tacklebox
+27
+D/Users/Ethan/.tacklebox
+	themes
+4
+D/Users/Ethan/.tacklebox/themes
+	..
+0
+D/Users/Ethan/.tacklebox
+	..
+0
+D/Users/Ethan
+	.tackle
+26
+D/Users/Ethan/.tackle
+	functions
+2
+D/Users/Ethan/.tackle/functions
+	..
+0
+D/Users/Ethan/.tackle
+	themes
+5
+D/Users/Ethan/.tackle/themes
+	entropy
+2
+D/Users/Ethan/.tackle/themes/entropy
+	..
+0
+D/Users/Ethan/.tackle/themes
+	urdh
+3
+D/Users/Ethan/.tackle/themes/urdh
+	..
+0
+D/Users/Ethan/.tackle/themes
+	..
+0
+D/Users/Ethan/.tackle
+	themes
+5
+D/Users/Ethan/.tackle/themes
+	budspencer
+1
+D/Users/Ethan/.tackle/themes/budspencer
+	..
+0
+D/Users/Ethan/.tackle/themes
+	..
+0
+D/Users/Ethan/.tackle
+	plugins
+4
+D/Users/Ethan/.tackle/plugins
+	hg
+4
+D/Users/Ethan/.tackle/plugins/hg
+	..
+0
+D/Users/Ethan/.tackle/plugins
+	pip
+4
+D/Users/Ethan/.tackle/plugins/pip
+	..
+0
+D/Users/Ethan/.tackle/plugins
+	python
+5
+D/Users/Ethan/.tackle/plugins/python
+	..
+0
+D/Users/Ethan/.tackle/plugins
+	docker
+1
+D/Users/Ethan/.tackle/plugins/docker
+	..
+0
+D/Users/Ethan/.tackle/plugins
+	..
+0
+D/Users/Ethan/.tackle
+	themes
+5
+D/Users/Ethan/.tackle/themes
+	..
+0
+D/Users/Ethan/.tackle
+	modules
+3
+D/Users/Ethan/.tackle/modules
+	virtualfish
+1
+D/Users/Ethan/.tackle/modules/virtualfish
+	..
+0
+D/Users/Ethan/.tackle/modules
+	virtualhooks
+2
+D/Users/Ethan/.tackle/modules/virtualhooks
+	..
+0
+D/Users/Ethan/.tackle/modules
+	z
+3
+D/Users/Ethan/.tackle/modules/z
+	..
+0
+D/Users/Ethan/.tackle/modules
+	..
+0
+D/Users/Ethan/.tackle
+	..
+0
+D/Users/Ethan
+	dotfiles
+42
+D/Users/Ethan/dotfiles
+	vim
+11
+D/Users/Ethan/dotfiles/vim
+	..
+0
+D/Users/Ethan/dotfiles
+	zsh
+12
+D/Users/Ethan/dotfiles/zsh
+	functions
+1
+D/Users/Ethan/dotfiles/zsh/functions
+	..
+0
+D/Users/Ethan/dotfiles/zsh
+	..
+0
+D/Users/Ethan/dotfiles
+	fish
+6
+D/Users/Ethan/dotfiles/fish
+	..
+0
+D/Users/Ethan/dotfiles
+	bin
+5
+D/Users/Ethan/dotfiles/bin
+	..
+0
+D/Users/Ethan/dotfiles
+	.config
+1
+D/Users/Ethan/dotfiles/.config
+	base16-shell
+1
+D/Users/Ethan/dotfiles/.config/base16-shell
+	..
+0
+D/Users/Ethan/dotfiles/.config
+	..
+0
+D/Users/Ethan/dotfiles
+	..
+0
+D/Users/Ethan
+	Library
+10
+D/Users/Ethan/Library
+	Caches
+9
+D/Users/Ethan/Library/Caches
+	com.spotify.client
+12
+D/Users/Ethan/Library/Caches/com.spotify.client
+	Storage
+4
+D/Users/Ethan/Library/Caches/com.spotify.client/Storage
+	09
+9
+D/Users/Ethan/Library/Caches/com.spotify.client/Storage/09
+	..
+0
+D/Users/Ethan/Library/Caches/com.spotify.client/Storage
+	b3
+12
+D/Users/Ethan/Library/Caches/com.spotify.client/Storage/b3
+	..
+0
+D/Users/Ethan/Library/Caches/com.spotify.client/Storage
+	..
+0
+D/Users/Ethan/Library/Caches/com.spotify.client
+	..
+0
+D/Users/Ethan/Library/Caches
+	..
+0
+D/Users/Ethan/Library
+	..
+0
+D/Users/Ethan
+	.config
+4
+D/Users/Ethan/.config
+	base16-shell
+1
+D/Users/Ethan/.config/base16-shell
+	..
+0
+D/Users/Ethan/.config
+	fish
+4
+D/Users/Ethan/.config/fish
+	..
+0
+D/Users/Ethan/.config
+	..
+0
+D/Users/Ethan
+	bckup
+42
+D/Users/Ethan/bckup
+	.nvim
+20
+D/Users/Ethan/bckup/.nvim
+	..
+0
+D/Users/Ethan/bckup
+	.vim
+28
+D/Users/Ethan/bckup/.vim
+	..
+0
+D/Users/Ethan/bckup
+	.nvim
+20
+D/Users/Ethan/bckup/.nvim
+	plugged
+2
+D/Users/Ethan/bckup/.nvim/plugged
+	..
+0
+D/Users/Ethan/bckup/.nvim
+	..
+0
+D/Users/Ethan/bckup
+	.config
+8
+D/Users/Ethan/bckup/.config
+	fish
+4
+D/Users/Ethan/bckup/.config/fish
+	completions
+1
+D/Users/Ethan/bckup/.config/fish/completions
+	..
+0
+D/Users/Ethan/bckup/.config/fish
+	..
+0
+D/Users/Ethan/bckup/.config
+	..
+0
+D/Users/Ethan/bckup
+	..
+0
+D/Users/Ethan
+	.dotfiles
+10
+D/Users/Ethan/.dotfiles
+	config.symlink
+3
+D/Users/Ethan/.dotfiles/config.symlink
+	fish
+2
+D/Users/Ethan/.dotfiles/config.symlink/fish
+	completions
+1
+D/Users/Ethan/.dotfiles/config.symlink/fish/completions
+	..
+0
+D/Users/Ethan/.dotfiles/config.symlink/fish
+	completions
+1
+D
+
+# Command line history (oldest to newest):
+:new
+:mkdir bin
+:mkdir install
+:w
+:hs
+:h
+:show
+:zo
+:z0
+:vs
+:r
+:mkcd
+:mkcd vim
+:rename
+:rename vimrc.symlink
+:rename vim.symlink
+:q
+:mkcd nvim
+:rename nvim.symlink
+:rename nvimrc.sym
+:rename nvim.sym
+:rename vim.sym
+:rename vimrc.sym
+:rename gitconfig.sym
+:rename gitignore_global.sym
+:mkcd config.sym
+:mkcd fish
+:wq
+
+# Search history (oldest to newest):
+/dotfiles
+/Lib
+/com.sp
+/config
+/dot
+
+# Prompt history (oldest to newest):
+pr
+pvim
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/Users/Ethan/.local/share/vifm/Trash/000_functions.fish
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+t/Users/Ethan/.local/share/vifm/Trash/000_.electron
+	/Users/Ethan/.electron
+t/Users/Ethan/.local/share/vifm/Trash/000_.oanda
+	/Users/Ethan/.oanda
+t/Users/Ethan/.local/share/vifm/Trash/000_.oracle_jre_usage
+	/Users/Ethan/.oracle_jre_usage
+t/Users/Ethan/.local/share/vifm/Trash/000_.p2
+	/Users/Ethan/.p2
+t/Users/Ethan/.local/share/vifm/Trash/000_config.orig
+	/Users/Ethan/.config/fish/config.orig
+t/Users/Ethan/.local/share/vifm/Trash/000_fish_prompt.fish
+	/Users/Ethan/.config/fish/functions/fish_prompt.fish
+t/Users/Ethan/.local/share/vifm/Trash/000_.vimperator
+	/Users/Ethan/.vimperator
+t/Users/Ethan/.local/share/vifm/Trash/000_.turses
+	/Users/Ethan/.turses
+t/Users/Ethan/.local/share/vifm/Trash/000_.tradable
+	/Users/Ethan/.tradable
+t/Users/Ethan/.local/share/vifm/Trash/000_hooks
+	/Users/Ethan/dotfiles/git/hooks
+t/Users/Ethan/.local/share/vifm/Trash/000_templates
+	/Users/Ethan/dotfiles/git/templates
+t/Users/Ethan/.local/share/vifm/Trash/000_nginx
+	/Users/Ethan/dotfiles/nginx
+t/Users/Ethan/.local/share/vifm/Trash/000_nginx.sh
+	/Users/Ethan/dotfiles/install/nginx.sh
+t/Users/Ethan/.local/share/vifm/Trash/000_nvm.sh
+	/Users/Ethan/dotfiles/install/nvm.sh
+t/Users/Ethan/.local/share/vifm/Trash/000_colors.zsh
+	/Users/Ethan/dotfiles/zsh/colors.zsh
+t/Users/Ethan/.local/share/vifm/Trash/000_completion.zsh
+	/Users/Ethan/dotfiles/zsh/completion.zsh
+t/Users/Ethan/.local/share/vifm/Trash/000_config.zsh
+	/Users/Ethan/dotfiles/zsh/config.zsh
+t/Users/Ethan/.local/share/vifm/Trash/000_jscsrc.symlink
+	/Users/Ethan/dotfiles/jscsrc.symlink
+t/Users/Ethan/.local/share/vifm/Trash/000_jshintrc.symlink
+	/Users/Ethan/dotfiles/jshintrc.symlink
+t/Users/Ethan/.local/share/vifm/Trash/000_hg
+	/Users/Ethan/.tackle/plugins/hg
+t/Users/Ethan/.local/share/vifm/Trash/000_mail.scpt
+	/Users/Ethan/dfiles/applescripts/mail.scpt
+t/Users/Ethan/.local/share/vifm/Trash/000_rdio.scpt
+	/Users/Ethan/dfiles/applescripts/rdio.scpt
+t/Users/Ethan/.local/share/vifm/Trash/000_tm
+	/Users/Ethan/dfiles/tm
+t/Users/Ethan/.local/share/vifm/Trash/000_snippets
+	/Users/Ethan/dfiles/nvim/nvim.symlink/snippets
+t/Users/Ethan/.local/share/vifm/Trash/000_spell
+	/Users/Ethan/dfiles/nvim/spell
+t/Users/Ethan/.local/share/vifm/Trash/000_vim.symlink
+	/Users/Ethan/.dotfiles/vim/vim.symlink
+t/Users/Ethan/.local/share/vifm/Trash/000_vimrc.symlink
+	/Users/Ethan/.dotfiles/vim/vimrc.symlink
+t/Users/Ethan/.local/share/vifm/Trash/000_plugged
+	/Users/Ethan/.dotfiles/vim/vim.symlink/plugged
+t/Users/Ethan/.local/share/vifm/Trash/000_.netrwhist
+	/Users/Ethan/.dotfiles/vim/vim.symlink/.netrwhist
+t/Users/Ethan/.local/share/vifm/Trash/000_.link.sh.swp
+	/Users/Ethan/.dotfiles/install/.link.sh.swp
+t/Users/Ethan/.local/share/vifm/Trash/000_functions.fish
+	/Users/Ethan/.dotfiles/config.symlink/fish/functions.fish
+
+# State:
+f
+i1
+[.0
+[F
+F
+I1
+].0
+]F
+s0
