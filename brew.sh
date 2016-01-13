@@ -49,47 +49,52 @@ brew install wget
 
 # Install more recent versions of some OS X tools.
 brew install vim --override-system-vi
-brew install ack
 brew install ag
 brew install openssh
 brew install tmux
 
 # Install other useful binaries.
 brew install ack
-brew install dark-mode
 brew install git
-brew install git-lfs
 brew install git-flow
-brew install git-extras
 brew install speedtest_cli
-brew install ssh-copy-id
-brew install markdown
 brew install vifm
 brew install z
 
 if [ "$(uname)" == "Darwin" ]; then
-	echo "Installing Homebrew Casks"
-	# Install Cask
-	brew install caskroom/cask/brew-cask
+	confirm () {
+		# call with a prompt string or use a default
+		read -r -p "${1:-Are you sure? [y/N]} " response
+		case $response in 
+			[yY][eE][sS]|[yY]) true ;;
+			*) false ;;
+		esac
+	}
 
-	# Core casks
-	brew cask install --appdir="~/Applications" iterm2
+	if confirm "Would you like to install homebrew casks?" ; then
+		echo "Installing Homebrew Casks"
+		# Install Cask
+		brew install caskroom/cask/brew-cask
 
-	# Development tool casks
-	brew cask install --appdir="/Applications" sublime-text3
-	brew cask install --appdir="/Applications" atom
-	brew cask install --appdir="/Applications" virtualbox
-	brew cask install --appdir="/Applications" macdown
+		# Core casks
+		brew cask install --appdir="~/Applications" iterm2
 
-	# Misc casks
-	brew cask install --appdir="/Applications" google-chrome
-	brew cask install --appdir="/Applications" firefox
-	brew cask install --appdir="/Applications" slack
-	brew cask install --appdir="/Applications" dropbox
-	#brew cask install --appdir="/Applications" skype
+		# Development tool casks
+		brew cask install --appdir="/Applications" sublime-text3
+		brew cask install --appdir="/Applications" atom
+		brew cask install --appdir="/Applications" virtualbox
+		brew cask install --appdir="/Applications" macdown
 
-	# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
-	brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+		# Misc casks
+		brew cask install --appdir="/Applications" google-chrome
+		brew cask install --appdir="/Applications" firefox
+		brew cask install --appdir="/Applications" slack
+		brew cask install --appdir="/Applications" dropbox
+		#brew cask install --appdir="/Applications" skype
+
+		# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
+		brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
+	fi
 fi
 
 
