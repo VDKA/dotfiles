@@ -4,8 +4,6 @@
     email = ethanjackwitz@gmail.com
 [github]
     user = vdka
-[init]
-    templatedir = ~/.dotfiles/git/templates
 [alias]
     # list all aliases
     l = log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative
