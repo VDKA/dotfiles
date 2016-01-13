@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 # Install command-line tools using Homebrew.
 
@@ -8,11 +8,19 @@ sudo -v
 # Keep-alive: update existing `sudo` time stamp until the script has finished.
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
+if [ "$(uname)" == "Linux" ]; then
+	sudo apt-get install build-essential curl git m4 ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
+fi
+
 # Check for Homebrew,
 # Install if we don't have it
-if test $(hash brew); then
+if ! type brew 2>&1 /dev/null; then
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/VDKA/dotfiles/brew/install)"
+	PATH=$HOME/.brew/bin:$PATH
 fi
+
+# Ensures integrity of homebrew
+brew doctor
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -22,7 +30,7 @@ brew upgrade --all
 
 # Install GNU core utilities (those that come with OS X are outdated).
 # Don’t forget to add `$(brew --prefix coreutils)/libexec/gnubin` to `$PATH`.
-#brew install coreutils
+brew install coreutils
 #sudo ln -s /usr/local/bin/gsha256sum /usr/local/bin/sha256sum
 
 # Install some other useful utilities like `sponge`.
