@@ -1,0 +1,38 @@
+#!/bin/bash
+
+if [ "$(uname)" == "Linux" ]; then
+	sudo apt-get install build-essential curl git m4 python-setuptools ruby texinfo libbz2-dev libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-dev
+fi
+
+if [ ! -d "$HOME/.dotfiles" ]; then
+
+	git clone https://github.com/VDKA/dotfiles.git $HOME/.dotfiles
+	pushd $HOME/.dotfiles > /dev/null
+
+elif [ -d "$HOME/.dotfiles/.git" ]; then
+
+	pushd $HOME/.dotfiles > /dev/null
+
+	if [[ ! "$(git remote show origin -n)" =~ "Fetch URL: .*VDKA\/dotfiles.git" ]]; then
+
+		git fetch 
+		git reset --hard origin/master
+	else
+		echo "~/.dotfiles directory exists but origin is not set to VDKA/dotfiles.git!"
+		echo "Aborting."
+		popd > /dev/null
+		exit 1
+	fi
+
+else
+
+	echo "~/.dotfiles directory exists but has no .git directory!"
+	echo "Aborting."
+	exit 1
+
+fi
+
+source install.sh
+
+popd > /dev/null
+
