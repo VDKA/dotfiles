@@ -26,7 +26,7 @@ if confirm "Would you like to symlink dotfiles?"; then
 	echo
 fi
 
-if confirm "Would you like to use brew to install utilities and application (osx)?"; then
+if confirm "Would you like to use brew to install utilities and application?"; then
 	echo "Installation of developer utilities"
 	source $SCRIPTPATH/brew.sh
 fi

@@ -14,7 +14,7 @@ fi
 
 # Check for Homebrew,
 # Install if we don't have it
-if ! type brew 2>&1 /dev/null; then
+if ! type brew &> /dev/null ; then
 	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/VDKA/dotfiles/brew/install)"
 	PATH=$HOME/.brew/bin:$PATH
 fi
