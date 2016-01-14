@@ -148,6 +148,11 @@ set listchars=eol:¬,tab:•\ ,trail:~,extends:>,precedes:<
 "execute "colorscheme ".$THEME
 "execute "set background=".$BACKGROUND
 
+if filereadable(expand("~/.vimrc_background"))
+  let base16colorspace=256
+  source ~/.vimrc_background
+endif
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => File Formatting Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
