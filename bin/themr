@@ -1,0 +1,37 @@
+#!/usr/bin/env ruby
+
+require 'fileutils'
+
+usageMessage = "Usage: themr [thameName] [light|dark]?"
+
+themeName = ARGV[0]
+abort usageMessage unless themeName
+brightness = ARGV[1] || "dark"
+
+base16Directory = "#{ENV['HOME']}/.config/base16-shell/"
+
+abort <<-EOABORT unless Dir.exist?("#{base16Directory}")
+#{base16Directory} 
+Directory expected to exist!
+EOABORT
+
+base16ThemeScript = "#{base16Directory}/base16-#{themeName}.#{brightness}.sh"
+
+abort <<-EORAISE unless Dir["#{base16Directory}/*"].include?(base16ThemeScript)
+Theme not found #{base16ThemeScript}!
+EORAISE
+
+base16Symlink = "#{ENV['HOME']}/.base16_theme"
+base16vimrcDirectory = "#{ENV['HOME']}/.vimrc_background"
+
+FileUtils.ln_sf(base16ThemeScript, base16Symlink)
+
+vimrcBackgroundContent = <<-vimrcBackgroundContent
+set background=#{brightness}
+colorscheme base16-#{themeName}
+vimrcBackgroundContent
+
+File.write(base16vimrcDirectory, vimrcBackgroundContent)
+
+exec(base16Symlink)
+
