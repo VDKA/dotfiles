@@ -56,6 +56,7 @@ brew install tmux
 # Install other useful binaries.
 brew install ack
 brew install git
+brew install hub
 brew install git-flow
 brew install speedtest_cli
 brew install vifm
