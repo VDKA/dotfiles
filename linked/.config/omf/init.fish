@@ -17,6 +17,7 @@ set -g CRYPTO_FIELD_KEY anything
 # Paths
 
 set PATH /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin $PATH
-set -U fish_user_paths $HOME/scripts /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin $HOME/.rbenv/bin $DOTFILES/bin
+set -U fish_user_paths /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin $HOME/.rbenv/bin $HOME/.dotfiles/bin
 
-eval sh $HOME/.base16-theme
+eval $HOME/.base16_theme
+

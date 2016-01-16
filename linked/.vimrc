@@ -136,7 +136,6 @@ set mat=2					" how long to blink the matching brace (0.2s)
 set wrap					" turn on line wrapping
 set linebreak				" set soft wrapping
 set showbreak=…				" show ellipsis at breaking
-let base16colorspace=256  " Access colors present in 256 colorspace
 set t_Co=256				" Tell vim the term support 256 colors
 set encoding=utf8
 hi CursorLineNR cterm=bold        "highlight line without underline.
@@ -147,6 +146,8 @@ set listchars=eol:¬,tab:•\ ,trail:~,extends:>,precedes:<
 
 "execute "colorscheme ".$THEME
 "execute "set background=".$BACKGROUND
+
+let base16colorspace=256  " Access colors present in 256 colorspace
 
 if filereadable(expand("~/.vimrc_background"))
   let base16colorspace=256
