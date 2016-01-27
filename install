@@ -12,8 +12,8 @@ def linux?
   /linux/i === RUBY_PLATFORM
 end
 
-HOMEBREW_PREFIX = "#{ENV['HOME']}/.brew"
-HOMEBREW_CACHE = "#{ENV['HOME']}/.cache/Homebrew"
+HOMEBREW_PREFIX = "/usr/local"
+HOMEBREW_CACHE = "/Library/Caches/Homebrew"
 if linux?
   REPOSITORY="https://github.com/Homebrew/linuxbrew"
 else
@@ -157,7 +157,7 @@ elsif File.directory? HOMEBREW_PREFIX
   sudo "/bin/chmod", "g+rwx", *chmods unless chmods.empty?
   sudo "/usr/bin/chgrp", "admin", *chgrps unless chgrps.empty?
 else
-  sudo "/bin/mkdir", HOMEBREW_PREFIX
+  sudo "/bin/mkdir", "-p", HOMEBREW_PREFIX
   sudo "/bin/chmod", "g+rwx", HOMEBREW_PREFIX
   # the group is set to wheel by default for some reason
   sudo "/usr/bin/chgrp", "admin", HOMEBREW_PREFIX
@@ -166,7 +166,7 @@ end
 if linux?
   system "/bin/mkdir", "-p", HOMEBREW_CACHE
 else
-  sudo "/bin/mkdir", HOMEBREW_CACHE unless File.directory? HOMEBREW_CACHE
+  sudo "/bin/mkdir", "-p", HOMEBREW_CACHE unless File.directory? HOMEBREW_CACHE
   sudo "/bin/chmod", "g+rwx", HOMEBREW_CACHE
 end
 
