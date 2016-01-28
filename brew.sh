@@ -76,6 +76,7 @@ if [ "$(uname)" == "Darwin" ]; then
 		echo "Installing Homebrew Casks"
 		# Install Cask
 		brew install caskroom/cask/brew-cask
+		brew tap caskroom/versions
 
 		# Core casks
 		brew cask install --appdir="~/Applications" iterm2
@@ -91,6 +92,7 @@ if [ "$(uname)" == "Darwin" ]; then
 		brew cask install --appdir="/Applications" firefox
 		brew cask install --appdir="/Applications" slack
 		brew cask install --appdir="/Applications" dropbox
+		brew cask install --appdir="/Applications" gitup
 		#brew cask install --appdir="/Applications" skype
 
 		# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
