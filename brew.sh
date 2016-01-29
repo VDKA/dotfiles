@@ -93,6 +93,8 @@ if [ "$(uname)" == "Darwin" ]; then
 		brew cask install --appdir="/Applications" slack
 		brew cask install --appdir="/Applications" dropbox
 		brew cask install --appdir="/Applications" gitup
+		brew cask install --appdir="/Applications" karabiner
+		brew cask install --appdir="/Applications" seil
 		#brew cask install --appdir="/Applications" skype
 
 		# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
