@@ -1,8 +1,8 @@
-# Path to Oh My Fish install.
-set -gx OMF_PATH "$HOME/.local/share/omf"
+set fisher_home ~/.local/share/fisherman
+set fisher_config ~/.config/fisherman
+source $fisher_home/config.fish
 
-# Customize Oh My Fish configuration path.
-#set -gx OMF_CONFIG "/Users/Ethan/.config/omf"
+set -U fish_user_paths /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin $HOME/.rbenv/bin $HOME/.dotfiles/bin
 
-# Load oh-my-fish configuration.
-source $OMF_PATH/init.fish
+eval $HOME/.base16_theme
+

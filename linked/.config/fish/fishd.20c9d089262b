@@ -27,3 +27,5 @@ SET fish_pager_color_description:555\x1eyellow
 SET fish_pager_color_prefix:cyan
 SET fish_pager_color_progress:cyan
 SET fish_user_paths:/Library/Developer/Toolchains/swift\x2dlatest\x2exctoolchain/usr/bin\x1e/Users/Ethan/\x2erbenv/bin\x1e/Users/Ethan/\x2edotfiles/bin
+SET fisher_last_update:1455452671
+SET fisher_prompt:cbjohnson
