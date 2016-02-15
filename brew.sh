@@ -86,16 +86,20 @@ if [ "$(uname)" == "Darwin" ]; then
 		brew cask install --appdir="/Applications" atom
 		brew cask install --appdir="/Applications" virtualbox
 		brew cask install --appdir="/Applications" macdown
+		brew cask install --appdir="/Applications" sketch
+		brew cask install --appdir="/Applications" sketch-toolbox
+		brew cask install --appdir="/Applications" zeplin
+		brew cask install --appdir="/Applications" paw
 
 		# Misc casks
 		brew cask install --appdir="/Applications" google-chrome
 		brew cask install --appdir="/Applications" firefox
 		brew cask install --appdir="/Applications" slack
 		brew cask install --appdir="/Applications" dropbox
+		brew cask install --appdir="/Applications" bittorrent-sync
 		brew cask install --appdir="/Applications" gitup
 		brew cask install --appdir="/Applications" karabiner
 		brew cask install --appdir="/Applications" seil
-		#brew cask install --appdir="/Applications" skype
 
 		# Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 		brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package

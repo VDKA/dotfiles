@@ -1,0 +1,3 @@
+[submodule "linked/.local/share/fisherman"]
+	path = linked/.local/share/fisherman
+	url = https://github.com/fisherman/fisherman.git
