@@ -4,5 +4,6 @@ hub
 cache
 generated_completions
 Trash
+fishd.*
 .index
 
