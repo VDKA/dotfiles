@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+
+bat = `pmset -g batt`
+
+batteryPercent = bat.match(/[0-9]+%/)
+charging = bat.match(/AC Power/)
+batteryRemaining = bat.match(/[0-9]+:[0-9]+/)
+
+print batteryPercent if batteryPercent
+print ' (' + batteryRemaining[0] + ')' if !charging && batteryRemaining
+

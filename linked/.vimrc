@@ -142,7 +142,7 @@ hi CursorLineNR cterm=bold        "highlight line without underline.
 
 " Whitespace characters visible.
 set list
-set listchars=eol:¬,tab:•\ ,trail:~,extends:>,precedes:<
+set listchars=eol:¬,tab:•\ ,trail:~,extends:>,precedes:<,space:·
 
 "execute "colorscheme ".$THEME
 "execute "set background=".$BACKGROUND
@@ -171,7 +171,7 @@ set shiftwidth=2			" size of an 'indent'
 set ignorecase				" case insensitive search
 "set smartcase				" case sensitive if there is a capital letter
 set incsearch				" highlight the search term while searching
-set nohlsearch				" do not keep search term highlighted
+set hlsearch				" do not keep search term highlighted
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => General

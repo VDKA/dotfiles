@@ -1,0 +1,7 @@
+set smartcase
+set number
+set incsearch
+set hlsearch
+set clipboard=unnamed
+set relativenumber
+
