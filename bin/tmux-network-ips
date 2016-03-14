@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+interfaces = `ifconfig -l`.split(" ").select { |interface| interface.match(/en[0-9]/) }
+
+puts interfaces.map { |interface|
+	`ifconfig #{interface}`.match(/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/) rescue first
+}.compact.join(" ")
+
