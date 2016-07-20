@@ -7,6 +7,7 @@ popd > /dev/null
 echo
 for file in $(find -H $SCRIPTPATH/linked -mindepth 1 -maxdepth 1); do
 	echo "linking $file"
+	rm -r "removing $HOME/$(basename $file)"
 	ln -sF $file $HOME/
 done
 echo
