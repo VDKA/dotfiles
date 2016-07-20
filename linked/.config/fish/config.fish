@@ -5,6 +5,7 @@ set -U fish_user_paths /Library/Developer/Toolchains/swift-latest.xctoolchain/us
 eval $HOME/.base16_theme
 
 source ~/.exports
+source ~/.aliases
 
 alias vim nvim
 

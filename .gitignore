@@ -5,6 +5,8 @@ cache
 generated_completions
 linked/.config/fisherman
 linked/.config/fish/functions
+linked/.config/fish/conf.d
+vifminfo
 Trash
 fishd.*
 .index
