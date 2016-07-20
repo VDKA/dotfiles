@@ -4,6 +4,7 @@ hub
 cache
 generated_completions
 linked/.config/fisherman
+linked/.config/fish/functions
 Trash
 fishd.*
 .index
