@@ -1,0 +1,1 @@
+/Users/Ethan/.config/fisherman/shark/functions/shark.fish

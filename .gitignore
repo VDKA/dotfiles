@@ -3,6 +3,7 @@ fish_history
 hub
 cache
 generated_completions
+linked/.config/fisherman
 Trash
 fishd.*
 .index
