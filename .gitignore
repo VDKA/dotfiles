@@ -6,6 +6,7 @@ generated_completions
 linked/.config/fisherman
 linked/.config/fish/functions
 linked/.config/fish/conf.d
+linked/.config/fish/fishd*
 vifminfo
 Trash
 fishd.*
