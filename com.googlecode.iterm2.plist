@@ -176,7 +176,7 @@
 	<key>NSNavLastRootDirectory</key>
 	<string>~/.dotfiles</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{712, 459}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -196,7 +196,7 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>322</string>
+		<string>307</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
@@ -208,17 +208,13 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>769 110 445 340 0 0 1280 800 </string>
+	<string>1409 110 445 409 0 0 1920 1057 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 342 606 456 0 0 1280 800 </string>
-	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>330 307 620 392 0 0 1280 800 </string>
+	<string>269 310 606 456 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 4 1280 796 0 0 1280 800 </string>
+	<string>579 101 662 956 0 0 1920 1057 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>-275 821 1914 1059 -275 800 1920 1080 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>0 8 1277 792 0 0 1280 800 </string>
+	<string>0 580 920 477 0 0 1920 1057 </string>
 	<key>NeverWarnAboutShortLivedSessions_E9B034CF-93A2-4C3B-B601-1AEDEB939D0C</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_E9B034CF-93A2-4C3B-B601-1AEDEB939D0C_selection</key>
@@ -752,7 +748,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>SFMono-Regular 12</string>
+			<string>SFMono-Light 12</string>
 			<key>Only The Default BG Color Uses Transparency</key>
 			<false/>
 			<key>Option Key Sends</key>
@@ -1422,26 +1418,14 @@
 			<string>/Users/Ethan</string>
 		</dict>
 	</array>
-	<key>NoSyncConfirmBeta</key>
-	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
 	<integer>0</integer>
-	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
-	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>F837E99D-6ABC-4D63-9511-F373D3D60609</string>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<string>51F7E7B5-A948-41F6-A1EF-861B4BBC7A6E</string>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>488127101.13846999</real>
-	<key>NoSyncTipsDisabled</key>
-	<false/>
+	<real>490611860.482831</real>
 	<key>PMPrintingExpandedStateForPrint2</key>
 	<false/>
 	<key>PointerActions</key>
@@ -1478,23 +1462,21 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/Ethan/.dotfiles</string>
+	<string>/Users/vdka/.dotfiles</string>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final.xml?shard=46</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=4</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
-	<key>SULastCheckTime</key>
-	<date>2016-07-19T09:18:39Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
-	<false/>
+	<true/>
 	<key>ShowNewOutputIndicator</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -1516,6 +1498,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.2</string>
+	<string>3.0.4</string>
 </dict>
 </plist>

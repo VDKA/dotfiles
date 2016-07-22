@@ -14,15 +14,17 @@ if empty(glob('~/.vim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.vim/plugged')
+Plug 'chriskempson/base16-vim'
 Plug 'itchyny/lightline.vim'
-Plug 'scrooloose/syntastic'
+
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
-Plug 'wincent/Command-T'
+
+Plug 'scrooloose/syntastic'
+"Plug 'wincent/Command-T'
 
 "Plug 'bling/vim-airline'
 "Plug 'edkolev/tmuxline.vim'
-Plug 'chriskempson/base16-vim'
 
 Plug 'vim-scripts/camelcasemotion'
 Plug 'kshenoy/vim-signature'
@@ -34,10 +36,12 @@ Plug 'rking/ag.vim'
 
 " Language stuff
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
-Plug 'keith/swift.vim'
-Plug 'keith/sourcekittendaemon.vim'
+
+Plug 'keith/swift.vim', { 'for': 'swift' }
+"Plug 'keith/sourcekittendaemon.vim', { 'for': 'swift' }
 Plug 'mitsuse/autocomplete-swift'
 Plug 'Shougo/neocomplete.vim'
+"Plug 'neomake/neomake'
 call plug#end()
 
 " allow backspacing over everything in insert mode
@@ -148,7 +152,6 @@ hi CursorLineNR cterm=bold        "highlight line without underline.
 set list
 
 set listchars=eol:¬,tab:•\ ,trail:~,extends:>,precedes:<,space:·
-
 autocmd TermOpen * if &buftype == 'terminal' | :set nolist | endif
 autocmd BufEnter * if &buftype == 'terminal' | :startinsert | endif
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
@@ -201,13 +204,37 @@ set clipboard=unnamed
 " => Plugin Settings
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+"let g:syntastic_swift_swiftpm_arguments = '-Xlinker -L/usr/local/lib/'
+
+"let g:neomake_swift_swiftpm_maker = {
+"  \ 'exe': 'swift',
+"  \ 'args': ['build -Xlinker -L%:p'],
+"  \ 'errorformat':
+"    \ '%E%f:%l:%c: error: %m,' .
+"    \ '%W%f:%l:%c: warning: %m,' .
+"    \ '%Z%\s%#^~%#,' .
+"    \ '%-G%.%#',
+"  \ }
+"
+"let g:neomake_verbose = 1
+"
+"let g:neomake_logfile = '~/neomakeLog'
+"
+"let g:neomake_swift_enabled_makers = ['swiftpm']
+
 " NERDTree
 let NERDTreeQuitOnOpen = 1
 
 " Markdown
 let g:markdown_fenced_languages = ['javascript', 'js=javascript', 'json=javascript', 'ruby', 'swift']
 
-let g:ctrlp_show_hidden = 1
+let g:ctrlp_show_hidden = 0
+
+let g:syntastic_swift_checkers = ['swiftpm']
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 0
+let g:syntastic_check_on_wq = 0
 
 " Status bar config
 let g:lightline = {
