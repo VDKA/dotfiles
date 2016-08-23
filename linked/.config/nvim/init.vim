@@ -20,7 +20,7 @@ Plug 'itchyny/lightline.vim'
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 
-Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
 "Plug 'wincent/Command-T'
 
 "Plug 'bling/vim-airline'
@@ -39,8 +39,8 @@ Plug 'tpope/vim-markdown', { 'for': 'markdown' }
 
 Plug 'keith/swift.vim', { 'for': 'swift' }
 "Plug 'keith/sourcekittendaemon.vim', { 'for': 'swift' }
-Plug 'mitsuse/autocomplete-swift'
-Plug 'Shougo/neocomplete.vim'
+"Plug 'mitsuse/autocomplete-swift'
+"Plug 'Shougo/neocomplete.vim'
 "Plug 'neomake/neomake'
 call plug#end()
 
