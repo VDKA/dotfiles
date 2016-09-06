@@ -7,16 +7,16 @@ filetype plugin indent on
 " => Plugins
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-if empty(glob('~/.vim/autoload/plug.vim'))
-  silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
-    \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+if empty(glob('~/.config/nvim/autoload/plug.vim'))
+  silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs \
+      https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall | source $MYVIMRC
 endif
 
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged/')
 Plug 'chriskempson/base16-vim'
 Plug 'itchyny/lightline.vim'
-
+"Plug 'scrooloose/syntastic'
 Plug 'kien/ctrlp.vim'
 Plug 'scrooloose/nerdtree'
 
@@ -26,13 +26,10 @@ Plug 'scrooloose/nerdtree'
 "Plug 'bling/vim-airline'
 "Plug 'edkolev/tmuxline.vim'
 
-Plug 'vim-scripts/camelcasemotion'
 Plug 'kshenoy/vim-signature'
 Plug 'ervandew/supertab'
 Plug 'spiiph/vim-space'
-Plug 'mileszs/ack.vim'
 Plug 'godlygeek/tabular'
-Plug 'rking/ag.vim'
 
 " Language stuff
 Plug 'tpope/vim-markdown', { 'for': 'markdown' }
@@ -230,10 +227,10 @@ let g:markdown_fenced_languages = ['javascript', 'js=javascript', 'json=javascri
 
 let g:ctrlp_show_hidden = 0
 
-let g:syntastic_swift_checkers = ['swiftpm']
-let g:syntastic_always_populate_loc_list = 1
-let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 0
+"if exists("g:ctrlp_user_command")
+"  unlet g:ctrlp_user_command
+"endif
+"set wildignore+=*\\vendor\\**
 let g:syntastic_check_on_wq = 0
 
 " Status bar config
