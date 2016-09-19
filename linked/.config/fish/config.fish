@@ -1,6 +1,6 @@
 set fisher_config ~/.config/fisherman
 
-set -U fish_user_paths /Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin $HOME/.dotfiles/bin /usr/local/opt/llvm/bin/
+set -U fish_user_paths $HOME/.dotfiles/bin /usr/local/opt/llvm/bin/
 
 eval ~/.base16_theme
 
