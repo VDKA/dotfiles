@@ -1,0 +1,248 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed and saved.
+ *
+ * Add your own CSS or Less to fully customize Atom.
+ * If you are unfamiliar with Less, you can read more about it here:
+ * http://lesscss.org
+ */
+
+@ui-size: 1rem;
+@scrollbar-color: @ui-background-highlight;
+@ui-background-highlight: @syntax-background-color;
+@overlay-background-color: #373B41;
+@overlay-border-color: #373B41;
+kf
+
+.tab-bar .tab.modified:not(:hover) .close-icon {
+  color: #009A49;
+}
+
+.tab-bar .tab.modified:hover .close-icon {
+  color: #001933;
+}
+
+.tab-bar .tab:hover .close-icon {
+  color: #001933;
+  background-color: #009A49;
+}
+
+.overlay,
+atom-panel.modal {
+  .shadow();
+  border-radius: @component-border-radius;
+  border: 0;
+  padding: 0;
+  width: 680px;
+  top: 150px !important;
+
+  &:before {
+    border-radius: 2px 2px 0 0;
+  }
+
+  @media (max-width: 768px) {
+    width: 88%;
+    left: 50%;
+    margin-left: -44%;
+  }
+
+  & > * > *:not(.list-group) {
+    margin: @component-padding;
+  }
+
+  .list-group,
+  .list-tree {
+    border-top: 1px solid @overlay-border-color;
+
+    li.list-nested-item > .list-item,
+    li:not(.list-nested-item) {
+      padding: 0.5em 1em;
+
+      .character-match {
+        .transition(color);
+        font-weight: normal;
+      }
+    }
+
+    li.selected {
+      .text(selected);
+      color: #009A49;
+
+      .character-match {
+        color: lighten(#009A49, 8%);
+      }
+
+      .secondary-line .character-match {
+        color: lighten(#9da5b4, 10%);
+      }
+    }
+
+    li:not(.selected) {
+      .character-match {
+        .text(normal);
+        color: lighten(#9da5b4, 10%);
+      }
+      .secondary-line .character-match {
+        color: lighten(#9da5b4, 10%);
+      }
+      &:hover {
+        color: lighten(#9da5b4, 10%);
+        background: transparent;
+      }
+    }
+  }
+
+  .editor--private.mini {
+    margin-top: 10px;
+  }
+
+  atom-text-editor.mini,
+  atom-text-editor.mini::shadow {
+    max-height: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-top: 10px;
+
+    .text {
+      font-size: @ui-size * 2;
+      height: 1.3em;
+      line-height: 1.3em;
+    }
+  }
+
+  /deep/::-webkit-scrollbar-track {
+    background: @overlay-background-color;
+    border-bottom-right-radius: 8px;
+  }
+
+  /deep/::-webkit-scrollbar-corner {
+    background: @overlay-background-color;
+  }
+
+  /deep/::-webkit-scrollbar-thumb {
+    border-color: @overlay-background-color;
+    background: @scrollbar-color;
+  }
+}
+
+.text(normal) {
+  font-size: @font-size;
+  font-weight: normal;
+  color: @text-color;
+}
+.text(subtle) {
+  font-weight: normal;
+  color: @text-color-subtle;
+}
+.text(highlight) {
+  font-weight: normal;
+  color: @text-color-highlight;
+}
+.text(selected) {
+  font-weight: normal;
+  .text(highlight)
+}
+
+.text(info) {
+  color: @text-color-info;
+}
+.text(success) {
+  color: @text-color-success;
+}
+.text(warning) {
+  color: @text-color-warning;
+}
+.text(error) {
+  color: @text-color-error;
+}
+
+.text(heading) {
+  font-weight: 300;
+  font-size: @font-size * 1.5;
+}
+
+.text(light) {
+  font-weight: 300;
+}
+.text(bold) {
+  font-weight: 600;
+}
+.text(invert) {
+  color: @app-background-color;
+}
+
+.transition() {
+  transition: 400ms all ease;
+}
+
+.transition(@property) {
+  transition: 400ms @property ease;
+}
+
+.shadow() {
+  box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
+atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+  box-shadow: none;
+  border-color: none;
+}
+
+.tab-bar .tab::before {
+  background: #009A49;
+}
+
+atom-text-editor[mini] .cursor, atom-text-editor[mini]::shadow .cursor {
+  border-color: lighten(@text-color, 20%);
+  border-width: 1px;
+}
+
+/*
+ * Examples
+ * (To see them, uncomment and save)
+ */
+
+// style the background color of the tree view
+.tree-view {
+
+	.icon:before {
+		display:none;
+	}
+}
+
+.vim-mode.normal-mode.is-focused,
+.vim-mode.visual-mode.is-focused,
+.vim-mode.operator-pending-mode.is-focused {
+	&::shadow, & {
+		.cursor, .cursor.blink-off {
+			background-color: #fff;
+			visibility: visible;
+		}
+	}
+}
+
+.status-bar-vim-mode-normal,
+.status-bar-vim-mode-insert,
+.status-bar-vim-mode-visual {
+	text-align: center;
+	font-size: 1.4em;
+	width: 12rem;
+	text-transform: uppercase;
+}
+
+.status-bar-vim-mode-normal {
+	background: #090;
+}
+
+.status-bar-vim-mode-insert {
+	background: #0ae;
+}
+
+.status-bar-vim-mode-visual {
+	background: #fb0;
+}

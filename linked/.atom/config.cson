@@ -1,0 +1,296 @@
+"*":
+  "accents-ui": {}
+  "advanced-open-file":
+    createDirectories: true
+    fuzzyMatch: true
+  "atom-material-ui":
+    colors:
+      abaseColor:
+        alpha: 1
+        blue: 38
+        green: 167
+        red: 255
+      accentColor:
+        alpha: 1
+        blue: 24
+        green: 105
+        red: 159
+      genAccent: true
+      predefinedColor: "Orange"
+    fonts:
+      fontSize: 15
+    tabs:
+      compactTabs: true
+    treeView:
+      compactList: true
+    ui: {}
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
+  "autocomplete-plus":
+    defaultProvider: "Fuzzy"
+    strictMatching: true
+  build:
+    overrideThemeColors: false
+    panelVisibility: "Hidden"
+    saveOnBuild: true
+    statusBar: "Right"
+    statusBarPriority: 0
+    stealFocus: false
+  "command-palette": {}
+  core:
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".flowconfig"
+        ".hgrc"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    disabledPackages: [
+      "language-perl"
+      "language-php"
+      "language-clojure"
+      "language-csharp"
+      "language-python"
+      "swift-debugger"
+      "linter-swift-package-manager"
+      "linter-sourcekitten-syntax"
+      "linter-swiftc"
+      "vim-mode"
+      "vim-mode-visual-block"
+      "vim-mode-plus-ex-mode"
+      "wrap-guide"
+      "autocomplete"
+      "welcome"
+      "Zen"
+      "sort-lines"
+      "hyperclick"
+      "language-ocaml"
+      "language-thrift"
+      "nuclide-format-js"
+      "language-ini"
+      "haskell-grammar"
+      "nuclide"
+      "completekit"
+      "completekit"
+      "completekit"
+      "completekit"
+      "completekit"
+      "completekit"
+      "minimap-cursorline"
+      "build"
+      "autocomplete-clang"
+      "markdown-preview-enhanced"
+    ]
+    excludeVcsIgnoredPaths: false
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      ".build"
+    ]
+    packagesWithKeymapsDisabled: [
+      "terminal-plus"
+    ]
+    restorePreviousWindowsOnStart: true
+    telemetryConsent: "no"
+    themes: [
+      "one-dark-ui"
+      "base16-tomorrow-dark-theme"
+    ]
+    useCustomTitleBar: true
+  crystal: {}
+  editor:
+    fontFamily: "SFMono-Regular"
+    fontSize: 13
+    invisibles: {}
+    showInvisibles: true
+    softWrap: true
+    softWrapHangingIndent: 2
+    tabType: "soft"
+    undoGroupingInterval: 150
+  "exception-reporting":
+    userId: "bc555be2-7aec-72af-4303-bcd700d1b3c2"
+  floobits: {}
+  "fuzzy-finder":
+    ignoredNames: [
+      "\\..*"
+    ]
+    preserveLastSearch: true
+    searchAllPanes: true
+  "go-plus":
+    currentPanelHeight: "11.666666666666666vh"
+    panelDisplayMode: "closed"
+  "julia-client":
+    enableMenu: true
+    enableToolBar: true
+    juliaPath: "/Applications/Julia-0.5.app/Contents/Resources/julia/bin/julia"
+    launchOnStartup: true
+  linter:
+    errorPanelHeight: 58
+  "linter-sourcekitten-syntax": {}
+  "linter-swift-package-manager":
+    executablePath: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a.xctoolchain/usr/bin/swift"
+  "linter-swiftc":
+    compilerExecPath: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a.xctoolchain/usr/bin/swiftc"
+  "markdown-preview-enhanced":
+    exportPDFPageFormat: "A4"
+  minimap:
+    plugins:
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+  nuclide:
+    installRecommendedPackages: true
+    "nuclide-debugger-php":
+      logLevel: "DEBUG"
+    "nuclide-home":
+      showHome: false
+    "nuclide-swift": {}
+    "nuclide-working-sets":
+      workingSets: [
+        {
+          name: "Cy"
+          active: true
+          uris: [
+            "/Users/Ethan/Source/vdka/crys"
+          ]
+        }
+      ]
+    use:
+      "nuclide-adb-logcat": false
+      "nuclide-arcanist": false
+      "nuclide-blame": false
+      "nuclide-blame-provider-hg": false
+      "nuclide-bookshelf": false
+      "nuclide-buck": false
+      "nuclide-busy-signal": false
+      "nuclide-clang": false
+      "nuclide-clipboard-path": false
+      "nuclide-code-format": false
+      "nuclide-ctags": false
+      "nuclide-debugger-iwdp": false
+      "nuclide-debugger-native": false
+      "nuclide-debugger-node": false
+      "nuclide-debugger-php": false
+      "nuclide-definition-hyperclick": false
+      "nuclide-definition-preview": false
+      "nuclide-definition-service": false
+      "nuclide-diagnostics-datatip-provider": false
+      "nuclide-diagnostics-store": false
+      "nuclide-diagnostics-ui": false
+      "nuclide-diff-view": false
+      "nuclide-flow": false
+      "nuclide-hack": false
+      "nuclide-hg-conflict-resolver": false
+      "nuclide-hg-repository": false
+      "nuclide-hhvm": false
+      "nuclide-http-request-sender": false
+      "nuclide-ios-simulator-logs": false
+      "nuclide-json": false
+      "nuclide-language-hack": false
+      "nuclide-move-item-to-available-pane": false
+      "nuclide-navigation-stack": false
+      "nuclide-objc": false
+      "nuclide-ocaml": false
+      "nuclide-python": false
+      "nuclide-quick-open": false
+      "nuclide-react-native": false
+      "nuclide-react-native-inspector": false
+      "nuclide-recent-files-provider": false
+      "nuclide-recent-files-service": false
+      "nuclide-refactorizer": false
+      "nuclide-related-files": false
+      "nuclide-remote-atom": false
+      "nuclide-remote-projects": false
+      "nuclide-source-control-side-bar": false
+      "nuclide-type-coverage": false
+      "nuclide-url-hyperclick": false
+      "nuclide-vcs-log": false
+      "nuclide-working-sets": false
+  "one-dark-ui":
+    fontSize: 12
+  "relative-numbers": {}
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "terminal-plus":
+    style:
+      fontSize: "12"
+      theme: "homebrew"
+    toggles: {}
+  "tool-bar":
+    position: "Left"
+    visible: false
+  "uber-juno":
+    disable: true
+  "vim-mode":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-mode-plus":
+    useClipboardAsDefaultRegister: true
+    useSmartcaseForSearch: true
+  "vim-surround": {}
+  welcome:
+    showOnStartup: false
+".ansi.text":
+  editor:
+    softWrapHangingIndent: 2
+".babel.regexp.source":
+  editor:
+    softWrapHangingIndent: 2
+".c.source":
+  editor:
+    softWrapHangingIndent: 2
+".camlp4.ocaml.source":
+  editor:
+    softWrapHangingIndent: 2
+".cpp.source":
+  editor:
+    softWrapHangingIndent: 2
+".hack.html.text":
+  editor:
+    softWrapHangingIndent: 2
+".hackfragment.source":
+  editor:
+    softWrapHangingIndent: 2
+".hg-commit.text":
+  editor:
+    softWrapHangingIndent: 2
+".html.leaf.text":
+  editor:
+    softWrapHangingIndent: 2
+".js.jsx.source":
+  editor:
+    softWrapHangingIndent: 2
+".languagebabel.ttlextension":
+  editor:
+    softWrapHangingIndent: 2
+".menhir.source":
+  editor:
+    softWrapHangingIndent: 2
+".ocaml.source":
+  editor:
+    softWrapHangingIndent: 2
+".ocamllex.source":
+  editor:
+    softWrapHangingIndent: 2
+".source.styledcss":
+  editor:
+    softWrapHangingIndent: 2
+".source.swift":
+  editor:
+    softWrapHangingIndent: 2

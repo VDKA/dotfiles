@@ -1,0 +1,43 @@
+
+'atom-workspace atom-text-editor:not([mini])':
+  'cmd-j': 'unset!'
+
+'.platform-darwin':
+  'cmd-b': 'build:trigger'
+  'cmd-r': 'build:trigger'
+  'cmd-shift-y': 'build:toggle-panel'
+  'cmd-.': 'build:stop'
+  'cmd-shift-o': 'fuzzy-finder:toggle-file-finder'
+  'cmd-0': 'tree-view:toggle'
+  'cmd-j': 'window:focus-pane-below'
+  'cmd-k': 'window:focus-pane-above'
+  'cmd-h': 'window:focus-pane-on-left'
+  'cmd-l': 'window:focus-pane-on-right'
+
+'atom-text-editor.autocomplete-active':
+  'escape': 'vim-mode-plus:activate-normal-mode'
+
+'body':
+  'cmd-j': 'unset!'
+  'cmd-l': 'unset!'
+  'cmd-h': 'unset!'
+  'cmd-k': 'unset!'
+
+'atom-text-editor':
+  'cmd-j': 'unset!'
+  'cmd-l': 'unset!'
+  'cmd-h': 'unset!'
+  'cmd-k': 'unset!'
+
+'.platform-darwin atom-text-editor':
+  'cmd-r': 'unset!'
+  'cmd-g': 'go-to-line:toggle'
+
+'.fuzzy-finder atom-text-editor[mini]':
+  'alt-enter': 'pane:split-right'
+  'shift-enter': 'pane:split-down'
+
+'atom-text-editor.vim-mode-plus:not(.insert-mode)':
+  'q': 'atom-keyboard-macros-vim:toggle_record_macro_vim'
+  '@': 'atom-keyboard-macros-vim:execute_macro_vim'
+  'Q': 'atom-keyboard-macros:call_last_kbd_macro'
