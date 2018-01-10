@@ -3,6 +3,9 @@
   "advanced-open-file":
     createDirectories: true
     fuzzyMatch: true
+  "atom-ide-ui":
+    use:
+      hyperclick: false
   "atom-material-ui":
     colors:
       abaseColor:
@@ -27,7 +30,6 @@
   autocomplete:
     includeCompletionsFromAllBuffers: true
   "autocomplete-plus":
-    defaultProvider: "Fuzzy"
     strictMatching: true
   build:
     overrideThemeColors: false
@@ -69,7 +71,6 @@
       "welcome"
       "Zen"
       "sort-lines"
-      "hyperclick"
       "language-ocaml"
       "language-thrift"
       "nuclide-format-js"
@@ -83,9 +84,11 @@
       "completekit"
       "completekit"
       "minimap-cursorline"
-      "build"
       "autocomplete-clang"
       "markdown-preview-enhanced"
+      "linter"
+      "linter-ui-default"
+      "linter-gcc"
     ]
     excludeVcsIgnoredPaths: false
     ignoredNames: [
@@ -96,29 +99,32 @@
       "._*"
       "Thumbs.db"
       ".build"
+      ".pioenvs"
+      ".piolibdeps"
+      ".clang_complete"
+      ".gcc-flags.json"
     ]
     packagesWithKeymapsDisabled: [
       "terminal-plus"
     ]
-    restorePreviousWindowsOnStart: true
     telemetryConsent: "no"
-    themes: [
-      "one-dark-ui"
-      "base16-tomorrow-dark-theme"
-    ]
-    useCustomTitleBar: true
+    titleBar: "custom"
   crystal: {}
   editor:
-    fontFamily: "SFMono-Regular"
-    fontSize: 13
+    fontFamily: "Hasklig-Regular"
+    fontSize: 11
     invisibles: {}
+    scrollPastEnd: true
     showInvisibles: true
     softWrap: true
     softWrapHangingIndent: 2
+    tabLength: 4
     tabType: "soft"
     undoGroupingInterval: 150
   "exception-reporting":
     userId: "bc555be2-7aec-72af-4303-bcd700d1b3c2"
+  "file-icons":
+    coloured: false
   floobits: {}
   "fuzzy-finder":
     ignoredNames: [
@@ -128,19 +134,24 @@
     searchAllPanes: true
   "go-plus":
     currentPanelHeight: "11.666666666666666vh"
+    panel:
+      currentHeight: "8.186309103740296vh"
     panelDisplayMode: "closed"
   "julia-client":
     enableMenu: true
     enableToolBar: true
     juliaPath: "/Applications/Julia-0.5.app/Contents/Resources/julia/bin/julia"
     launchOnStartup: true
-  linter:
-    errorPanelHeight: 58
+  linter: {}
   "linter-sourcekitten-syntax": {}
   "linter-swift-package-manager":
     executablePath: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a.xctoolchain/usr/bin/swift"
   "linter-swiftc":
     compilerExecPath: "/Library/Developer/Toolchains/swift-DEVELOPMENT-SNAPSHOT-2016-06-20-a.xctoolchain/usr/bin/swiftc"
+  "linter-ui-default":
+    panelHeight: 117
+    showPanel: true
+    useBusySignal: false
   "markdown-preview-enhanced":
     exportPDFPageFormat: "A4"
   minimap:
@@ -218,6 +229,7 @@
   "one-dark-ui":
     fontSize: 12
   "relative-numbers": {}
+  "relative-numbers-plus": {}
   "remote-atom":
     keep_alive: true
     launch_at_startup: true
@@ -235,6 +247,8 @@
   "tool-bar":
     position: "Left"
     visible: false
+  "tree-view":
+    hideIgnoredNames: true
   "uber-juno":
     disable: true
   "vim-mode":

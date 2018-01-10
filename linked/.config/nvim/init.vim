@@ -23,15 +23,17 @@ Plug 'mpcsh/vim-pass'                  " pass(1) helper
 Plug 'tpope/vim-repeat'                " make . work for everything
 Plug 'vim-scripts/replacewithregister' " replace with register
 Plug 'tpope/vim-sensible'              " sensible defaults
-Plug 'tpope/vim-sleuth'                " Smartly set shiftwidth and tabstop
 Plug 'tpope/vim-surround'              " delimiter manipulation
 Plug 'vim-scripts/visualrepeat'        " make . work for *everything* (visual mode)
+"Plug 'tpope/vim-sleuth'               " Smartly set shiftwidth and tabstop
+"Plug 'ciaranm/detectindent'           " Smartly set shiftwidth and tabstop
 
 " colorscheme
 Plug 'morhetz/gruvbox'               " gruvbox colors
 Plug 'deens/lightline_gruvbox_theme' " lightline gruvbox theme
 
 " languages
+Plug 'Superbil/llvm.vim',         { 'for': ['ll', 'llvm']}       " llvm ir
 Plug 'kai-language/vim-kai',      { 'for': 'kai'}      " kai
 Plug 'fatih/vim-go',              { 'for': 'go'}       " go
 Plug 'godlygeek/tabular',         { 'for': 'markdown'} " necessary for markdown
@@ -39,7 +41,7 @@ Plug 'tpope/vim-markdown',        { 'for': 'markdown'} " markdown
 Plug 'keith/swift.vim',           { 'for': 'swift'}    " swift
 
 " utilities
-Plug 'wakatime/vim-wakatime'  " time tracking
+"Plug 'wakatime/vim-wakatime'  " time tracking
 
 call plug#end()
 

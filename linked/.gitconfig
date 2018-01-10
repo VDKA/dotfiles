@@ -1,7 +1,7 @@
 # gitconfig
 [user]
-    name = Ethan Jackwitz
-    email = ethanjackwitz@gmail.com
+	name = vdka
+	email = ethanjackwitz@gmail.com
 [github]
     user = vdka
 [alias]

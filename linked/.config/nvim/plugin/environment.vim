@@ -51,5 +51,8 @@ if !isdirectory(expand(&undodir))
 	call mkdir(expand(&undodir), 'p')
 endif
 
+" Restore cursor on re-entry
+autocmd BufReadPost * if line("'\"") > 0 && line("'\"") < line("$") | exe "normal! g`\"" | endif
+
 " don't keep commenting on enter or o/O
 autocmd BufNewFile,BufRead * setlocal formatoptions-=ro

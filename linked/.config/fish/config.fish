@@ -2,14 +2,8 @@ set fisher_config ~/.config/fisherman
 
 set -U fish_user_paths $HOME/.dotfiles/bin /usr/local/opt/llvm/bin/
 
-eval ~/.base16_theme
-
 source ~/.exports
 source ~/.aliases
 
-alias vim nvim
-
 setenv DISABLE_AUTO_TITLE true
-setenv SWIFTENV_ROOT "$HOME/.swiftenv"
-status --is-interactive; and . (swiftenv init -|psub)
 

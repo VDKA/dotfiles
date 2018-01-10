@@ -48,7 +48,7 @@ echo "Brewing some things"
 brew install wget
 
 # Install more recent versions of some OS X tools.
-brew install vim --override-system-vi
+brew install vim --with-override-system-vi
 brew install ag
 brew install openssh
 brew install tmux

@@ -98,8 +98,7 @@ atom-panel.modal {
     margin-top: 10px;
   }
 
-  atom-text-editor.mini,
-  atom-text-editor.mini::shadow {
+  atom-text-editor.mini {
     max-height: none;
     background-color: transparent;
     border: 0;
@@ -188,7 +187,7 @@ atom-panel.modal {
   box-shadow: 0 12px 36px 0 rgba(0, 0, 0, 0.4) !important;
 }
 
-atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
+atom-text-editor[mini].is-focused {
   box-shadow: none;
   border-color: none;
 }
@@ -197,7 +196,7 @@ atom-text-editor[mini].is-focused, atom-text-editor[mini].is-focused::shadow {
   background: #009A49;
 }
 
-atom-text-editor[mini] .cursor, atom-text-editor[mini]::shadow .cursor {
+atom-text-editor[mini] .cursor {
   border-color: lighten(@text-color, 20%);
   border-width: 1px;
 }

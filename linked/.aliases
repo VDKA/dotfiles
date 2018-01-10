@@ -1,4 +1,1 @@
 alias vim nvim
-alias atom 'atom .'
-alias stest 'swift test 2>&1 | PrettyTest'
-alias tapprproxy 'mitmproxy --ignore "^(?!tappr-api-development.ap-southeast-2.elasticbeanstalk.com)" --limit "tappr-api-development.ap-southeast-2.elasticbeanstalk.com"'

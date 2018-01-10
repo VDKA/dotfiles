@@ -6,12 +6,6 @@ let maplocalleader=","
 noremap <silent> j gj
 noremap <silent> k gk
 
-" make HJKL jump to the extreme of their lowercase counterparts
-noremap <silent> H ^
-noremap <silent> L $
-noremap <silent> J G
-noremap <silent> K gg
-
 " disable "ex mode"
 nnoremap <silent> Q <Nop>
 
